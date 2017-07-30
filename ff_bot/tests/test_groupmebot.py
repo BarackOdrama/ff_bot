@@ -11,7 +11,7 @@ class GroupMeBotTestCase(unittest.TestCase):
     '''Test GroupMeBot class'''
 
     def setUp(self):
-        self.test_bot = GroupMeBot("123456")
+        self.test_bot = GroupMeBot("2370f50c3e80e98968fd2de58c")
         self.test_text = "This is a test."
 
     @requests_mock.Mocker()
